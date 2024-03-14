@@ -1,5 +1,32 @@
 # DSC204A
-Includes my work done(Assignments) in the DSC204A course: Scalable Data Systems
+Includes my work done(Assignments) in the course: Scalable Data Systems, which I completed while doing my master's at UC San Diego
+
+## Programming Assignment 1:
+
+**Objective:**  
+The programming assignment focused on familiarizing students with processing large datasets using Ray and Modin. It comprised three tasks: setting up Ray and Modin, data manipulation with Modin, and implementing parallel computations with the Ray Core API.
+
+**Task 1: Setting up Ray and Modin**
+
+* Created a Python environment with Anaconda and installed Ray and Modin.  
+* Checked successful installation of Ray and Modin using version verification commands.  
+
+**Task 2: Data Manipulation with Modin**
+
+* Performed basic data manipulation operations on a subset of the Amazon Reviews dataset using Modin.  
+* Generated a new table with specified columns, including reviewerID, number of products reviewed, mean rating, latest review year, and number of helpful votes.  
+* Conducted experiments by changing the number of CPUs used by Modin or the Ray backend and documented execution times with 2, 3, and 4 CPUs to observe speedup.  
+
+**Task 3: The Ray Core API**
+
+* Implemented a distributed merge sort algorithm using Ray to parallelize computations and utilize all 4 CPUs.  
+* Modified a provided merge sort algorithm to parallelize tasks and achieve a speedup compared to plain sorting.  
+* Analyzed the theoretical maximum speedup and accounted for differences between theoretical results and observed speedup with Ray.  
+
+**Conclusion**:  
+Overall, the programming assignment provided practical exercises in setting up distributed computing environments, performing data manipulation at scale, and implementing parallel algorithms using Ray and Modin.
+
+***
 
 ## Programming Assignment 3:
 The aim of Programming Assignment 3 was to train and tune a machine-learning model using Ray. The assignment consisted of two main tasks: feature engineering with Modin on Ray (Task 1) and training and tuning with Ray (Task 2).

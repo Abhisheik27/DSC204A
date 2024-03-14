@@ -1,5 +1,7 @@
 # DSC204A
-Includes my work done(Assignments) in the course: Scalable Data Systems, which I completed while doing my master's at UC San Diego
+Includes my work done(Assignments) in the course: Scalable Data Systems, which I completed while doing my master's at UC San Diego.
+
+**Technologies used: Ray, Modin, Anaconda, Python, DataHub(Jupyter Notebook), Ray Tune, XGBoost**
 
 ## Programming Assignment 1:
 

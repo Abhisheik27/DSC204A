@@ -80,6 +80,6 @@ In Task 2, I trained a machine learning model using the preprocessed data and tu
 
 * Tuning with Ray Tune: I performed a grid search for hyperparameters using Ray Tune, selecting the best model based on the lowest validation RMSE. The hyperparameters tuned were max depth, eta, and subsample, with a limited grid of values.
 
-**Takeaways:**
+**Takeaways:**  
 I developed the solutions for this assignment in Jupyter notebooks provided on DataHub, using the Ray environment with specified CPU and RAM configurations. Package installations were already handled, and caution was advised against installing additional libraries that could persist across cluster restarts.
 Overall, this assignment provided valuable hands-on experience in feature engineering, model training, and hyperparameter tuning using Ray, contributing to a deeper understanding of scalable data systems and machine learning workflows.
